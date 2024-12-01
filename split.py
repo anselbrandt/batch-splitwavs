@@ -3,8 +3,8 @@ from utils import getTranscriptFiles, srt_to_transcript, split_waveform_by_times
 
 ROOT = os.getcwd()
 
-filesDir = os.path.join(ROOT, "files")
-wavsDir = os.path.join(ROOT, "mono")
+filesDir = os.path.join(ROOT, "output")
+wavsDir = os.path.join(ROOT, "audio")
 outputDir = os.path.join(ROOT, "splitwavs")
 os.makedirs(outputDir, exist_ok=True)
 files = getTranscriptFiles(filesDir)
