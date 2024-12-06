@@ -1,4 +1,8 @@
 __pycache__/
 audio/
+clean_audio/
 output/
+clean_output/
 splitwavs/
+clean_splitwavs/
+logs.txt
